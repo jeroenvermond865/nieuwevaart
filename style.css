@@ -82,7 +82,7 @@ i,.water-naam{font-style:italic}
 .menu ul a{padding:6px 0;border-bottom:2px solid transparent;font-family:var(--kop);font-weight:700;font-size:1.0625rem;color:var(--blouw);text-decoration:none}
 .menu ul a:hover{border-bottom-color:var(--das);color:var(--blouw)}
 .menuknop{display:none}
-@media (max-width:1023px){
+@media (max-width:1219px){
   .kop__inner{flex-wrap:wrap}
   .menu ul{flex-wrap:wrap;gap:6px 18px}
   .js .kop__inner{flex-wrap:nowrap}
@@ -379,6 +379,14 @@ i,.water-naam{font-style:italic}
 .spel strong{display:flex;align-items:center;gap:8px;margin-bottom:6px;font-family:var(--kop);font-weight:700;font-size:1.6rem;line-height:1.1;color:var(--blouw)}
 .spel strong svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
 .spel__tekst>span{display:block;font-size:1rem;line-height:1.5;color:var(--grijs)}
+.merk__logo{width:52px;height:52px;flex:none}
+.menu ul a.menu__extern{display:inline-flex;align-items:center;gap:5px}
+.menu__extern svg{width:13px;height:13px;flex:none;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+@media (max-width:1219px){.js .menu ul a.menu__extern{display:flex}}
+@media (min-width:1220px){.menu ul{align-items:center}}
+.menu ul a{white-space:nowrap}
+.held h1{font-size:clamp(3.5rem,1.6rem + 6.4vw,6.6rem)}
+.merk__logo--groot{width:80px;height:80px}
 .vloot__kop{margin-top:48px;font-size:1.5rem}
 .vloot__kop--rest{margin-top:64px}
 .vloot--eigen{margin-top:16px}
