@@ -114,4 +114,15 @@
   if (tabs.length) kies(uitHash() || eerstvolgende());
   window.addEventListener('hashchange', function () { var h = uitHash(); if (h) kies(h); });
 
+  // Knoppen bij de kampen openen de juiste paklijst
+  $$('[data-paklijst]').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      e.preventDefault();
+      kies(a.getAttribute('data-paklijst'));
+      var doel = $('#paklijst');
+      if (doel) doel.scrollIntoView();
+      var tab = $('.tab[aria-selected="true"]');
+      if (tab) tab.focus({ preventScroll: true });
+    });
+  });
 })();

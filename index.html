@@ -59,14 +59,14 @@
     <nav class="menu" id="hoofdmenu" aria-label="Hoofdmenu">
       <ul>
         <li><a href="index.html" aria-current="page">Home</a></li>
-        <li><a href="spullen.html">Spullen</a></li>
         <li><a href="kampen.html">Kampen</a></li>
-        <li><a href="zeilen.html">Zeilen leren</a></li>
+        <li><a href="zeilen.html">WSA (CWO)</a></li>
+        <li><a href="spullen.html">Veiligheid</a></li>
         <li><a href="lid-worden.html">Lid worden</a></li>
+        <li><a href="spellen.html">Online spellen</a></li>
         <li><a href="contact.html">Contact</a></li>
-        <li><a class="menu__extern" href="https://marktmeesters.onrender.com/" target="_blank" rel="noopener">Marktmeesters<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M6 3h7v7M13 3 4 12"/></svg><span class="sr-only"> (opent in een nieuw tabblad)</span></a></li>
       </ul>
-      <a class="knop knop--das knop--klein" href="paklijst.html">Paklijst</a>
+      <a class="knop knop--das knop--klein" href="kampen.html#paklijst">Paklijst</a>
     </nav>
   </div>
 </header>
@@ -80,7 +80,7 @@
         <p class="held__intro">Waterscouting voor meiden van 11 tot en met 14 jaar. Op zaterdag vanaf 12.00 uur tuigen we de lelievletten op en gaan we het water op. Hier vind je alles voor de opkomsten en de kampen.</p>
         <div class="knoppen">
           <a class="knop knop--das" href="kampen.html">Kampen en paklijsten</a>
-          <a class="knop knop--rand" href="spullen.html">Wat neem je mee?</a>
+          <a class="knop knop--rand" href="index.html#spullen">Wat neem je mee?</a>
         </div>
         <p class="held__groep">Een speltak van <a href="https://www.vadedo.nl/">Scouting Van der Does-Liethorp (VaDeDo)</a> in Leiderdorp.</p>
       </div>
@@ -149,38 +149,6 @@
     </div>
   </section>
 
-  <section class="water" aria-labelledby="kampjaar-titel">
-    <svg class="water__lijnen" viewBox="0 0 1440 220" preserveAspectRatio="none" aria-hidden="true" focusable="false">
-      <g fill="none" stroke="#fff" stroke-opacity=".1" stroke-width="1.5">
-        <path vector-effect="non-scaling-stroke" d="M0 46C240 26 480 66 720 46S1200 26 1440 46"/>
-        <path vector-effect="non-scaling-stroke" d="M0 96C200 78 430 112 700 94S1180 76 1440 98"/>
-        <path vector-effect="non-scaling-stroke" d="M0 146C260 128 520 162 760 142S1220 124 1440 146"/>
-        <path vector-effect="non-scaling-stroke" d="M0 194C220 180 460 208 720 190S1200 176 1440 196"/>
-      </g>
-    </svg>
-    <div class="wrap">
-      <h2 class="water__titel" id="kampjaar-titel">Ons kampjaar</h2>
-      <ol class="kampjaar">
-        <li>
-          <span class="boei" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M5 19C5 10.5 10.5 5 19 5c0 8.5-5.5 14-14 14Z"/><path d="M5 19 13 11"/></svg></span>
-          <a href="kampen.html#kamp-herfst"><strong>Herfstkamp</strong><span>Vier dagen in de herfstvakantie, op Boterhuiseiland</span></a>
-        </li>
-        <li>
-          <span class="boei" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M12 3v18M4.2 7.5l15.6 9M4.2 16.5l15.6-9M9.5 4.5 12 7l2.5-2.5M9.5 19.5 12 17l2.5 2.5"/></svg></span>
-          <a href="kampen.html#kamp-winter"><strong>Winterkamp</strong><span>Een weekend in ons eigen troephuis</span></a>
-        </li>
-        <li>
-          <span class="boei" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M6 21V4"/><path d="M6 5h12l-3 4 3 4H6"/></svg></span>
-          <a href="kampen.html#kamp-kaagcup"><strong>Kaagcup</strong><span>Zeilwedstrijd op de <i>Kagerplassen</i>, na Hemelvaartsdag</span></a>
-        </li>
-        <li>
-          <span class="boei" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg></span>
-          <a href="kampen.html#kamp-zomer"><strong>Zomerkamp</strong><span>Een week kamperen, begin zomervakantie</span></a>
-        </li>
-      </ol>
-    </div>
-  </section>
-
   <section class="sectie" id="zaterdag" aria-labelledby="zaterdag-titel">
     <div class="wrap">
       <div class="kolom-tekst">
@@ -229,13 +197,64 @@
     </div>
   </section>
 
+  <section class="sectie sectie--mist" id="spullen" aria-labelledby="spullen-titel">
+    <div class="wrap">
+      <div class="kolom-tekst">
+        <h2 id="spullen-titel">Wat neem je mee?</h2>
+        <p class="intro">Je hebt geen dure spullen nodig. Met kleding die nat en vies mag worden, een regenpak en droge reservekleren kom je al heel ver.</p>
+      </div>
+      <div class="spullen">
+        <div class="spullen__kolom">
+          <h3>Elke zaterdag</h3>
+          <ul class="lijst">
+            <li>Kleding die nat en vies mag worden, in laagjes</li>
+            <li>Dichte schoenen die nat mogen worden</li>
+            <li>Regenjas en regenbroek</li>
+            <li>Droge reservekleding in een plastic tas</li>
+            <li>Een flesje water</li>
+          </ul>
+        </div>
+        <div class="spullen__kolom">
+          <h3>Als het koud is</h3>
+          <ul class="lijst">
+            <li>Een fleece of warme trui onder je regenjas</li>
+            <li>Een muts</li>
+            <li>Handschoenen: gewone werk- of fietshandschoenen zijn prima</li>
+            <li>Dikke sokken</li>
+          </ul>
+        </div>
+        <div class="spullen__kolom">
+          <h3>Als de zon schijnt</h3>
+          <ul class="lijst">
+            <li>Zonnebrand, ook als het bewolkt is</li>
+            <li>Een pet of hoedje</li>
+            <li>Een zonnebril met koordje</li>
+            <li>Extra drinken</li>
+          </ul>
+        </div>
+      </div>
+      <div class="spullen__onder spullen__onder--een">
+        <div class="paneel paneel--das">
+          <h3>Geen duur zeilpak nodig</h3>
+          <p>Een merkzeilpak is mooi, maar je hebt het niet nodig. Een eenvoudig regenpak uit de sportwinkel houdt je ook droog. En je groeit er toch zo weer uit.</p>
+          <ul class="lijst">
+            <li>Kijk eerst tweedehands: Marktplaats, Vinted of de kringloop.</li>
+            <li>Vraag rond bij andere ouders. Veel spullen zijn na een jaar te klein en worden graag doorgegeven.</li>
+            <li>Koop pas iets als je merkt dat je het echt mist.</li>
+            <li>Zet overal je naam in. Dan raak je minder kwijt.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="sectie" aria-labelledby="verder-titel" style="padding-top:0">
     <div class="wrap">
       <h2 class="sr-only" id="verder-titel">Verder op deze site</h2>
       <nav class="verder" aria-label="Verder op deze site">
-        <a href="spullen.html"><strong>Wat neem je mee?</strong><span>Kleding, veiligheid en wat het kost.</span></a>
         <a href="kampen.html"><strong>Kampen</strong><span>Herfstkamp, winterkamp, Kaagcup en zomerkamp.</span></a>
-        <a href="lid-worden.html"><strong>Lid worden</strong><span>Zo meld je je aan, en jouw route bij VaDeDo.</span></a>
+        <a href="lid-worden.html"><strong>Lid worden</strong><span>Aanmelden, wat het kost en jouw route bij VaDeDo.</span></a>
+        <a href="zeilen.html"><strong>WSA (CWO)</strong><span>Zeildiploma's halen en onze vloot.</span></a>
       </nav>
     </div>
   </section>
@@ -260,7 +279,7 @@
     <ul class="voet__links">
       <li><a href="lid-worden.html">Lid worden</a></li>
       <li><a href="https://www.vadedo.nl/">VaDeDo.nl</a></li>
-      <li><a href="https://marktmeesters.onrender.com/" target="_blank" rel="noopener">Marktmeesters<span class="sr-only"> (opent in een nieuw tabblad)</span></a></li>
+      <li><a href="spellen.html">Online spellen</a></li>
       <li><a href="https://www.vadedo.nl/privacy">Privacy</a></li>
       <li><a href="https://www.vadedo.nl/gedragscode">Gedragscode</a></li>
       <li><a href="https://www.vadedo.nl/sociale-veiligheid">Sociale veiligheid</a></li>
