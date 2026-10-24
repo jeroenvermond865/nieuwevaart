@@ -1,7 +1,7 @@
-name: Agenda verversen
+name: Agenda en wiki verversen
 
-# Haalt elk uur de agenda's (Socie) op en werkt agenda.json bij.
-# De site gebruikt agenda.json als de agenda niet rechtstreeks geladen kan worden.
+# Haalt elk uur de agenda's (Socie) en de wiki-pagina's op en werkt agenda.json en wiki.json bij.
+# De site gebruikt deze bestanden als live ophalen niet lukt.
 on:
   schedule:
     - cron: "17 * * * *"
@@ -12,6 +12,8 @@ on:
       - "agenda-instellingen.js"
       - "agenda-ics.js"
       - "agenda-ophalen.js"
+      - "wiki-instellingen.js"
+      - "wiki-ophalen.js"
       - ".github/workflows/agenda.yml"
 
 permissions:
@@ -31,14 +33,17 @@ jobs:
           node-version: 20
       - name: Agenda ophalen
         run: node agenda-ophalen.js
+      - name: Wiki ophalen
+        run: node wiki-ophalen.js
       - name: Opslaan als er iets veranderd is
         run: |
-          if git diff --quiet -- agenda.json; then
-            echo "Geen wijzigingen in de agenda."
+          git add -N wiki.json 2>/dev/null || true
+          if git diff --quiet -- agenda.json wiki.json; then
+            echo "Geen wijzigingen."
             exit 0
           fi
           git config user.name "agenda-bot"
           git config user.email "agenda-bot@users.noreply.github.com"
-          git add agenda.json
-          git commit -m "Agenda bijgewerkt"
+          git add agenda.json wiki.json
+          git commit -m "Agenda/wiki bijgewerkt"
           git push
