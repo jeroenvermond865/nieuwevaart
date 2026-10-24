@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nieuwe Vaart</title>
+  <meta name="description" content="Nieuwe Vaart – binnenkort online.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --water: #0f3b4c;
+      --water-deep: #0a2733;
+      --sand: #f4efe6;
+      --accent: #e3a857;
+      --text: #f4efe6;
+      --muted: #b9cdd3;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; }
+    body {
+      font-family: "Inter", system-ui, sans-serif;
+      background: var(--water-deep);
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 48px 24px 160px;
+      max-width: 760px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 2;
+    }
+    .label {
+      font-size: 13px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-family: "Fraunces", Georgia, serif;
+      font-weight: 600;
+      font-size: clamp(48px, 11vw, 104px);
+      line-height: 0.95;
+      letter-spacing: -0.02em;
+      margin-bottom: 28px;
+    }
+    p {
+      font-size: clamp(17px, 2.4vw, 20px);
+      line-height: 1.6;
+      color: var(--muted);
+      max-width: 520px;
+    }
+    .contact {
+      margin-top: 36px;
+      font-size: 15px;
+      color: var(--muted);
+    }
+    .contact a {
+      color: var(--sand);
+      text-decoration: none;
+      border-bottom: 1px solid var(--accent);
+      padding-bottom: 2px;
+    }
+    .contact a:hover { color: var(--accent); }
+    .waves {
+      position: fixed;
+      left: 0; right: 0; bottom: 0;
+      height: 180px;
+      z-index: 1;
+      pointer-events: none;
+    }
+    .waves svg { position: absolute; bottom: 0; width: 200%; height: 100%; }
+    .w1 { animation: drift 18s linear infinite; opacity: .35; }
+    .w2 { animation: drift 12s linear infinite reverse; opacity: .55; }
+    .w3 { animation: drift 24s linear infinite; }
+    @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+    @media (prefers-reduced-motion: reduce) { .w1, .w2, .w3 { animation: none; } }
+    footer {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      font-size: 13px;
+      color: var(--muted);
+      padding: 0 24px 24px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="label">Binnenkort online</div>
+    <h1>Nieuwe<br>Vaart</h1>
+    <p>We werken hard aan onze nieuwe website. Binnenkort vind je hier alles over Nieuwe Vaart.</p>
+    <!-- <div class="contact">Vragen? Mail naar <a href="mailto:info@nieuwevaart.nl">info@nieuwevaart.nl</a></div> -->
+  </main>
+
+  <div class="waves" aria-hidden="true">
+    <svg class="w1" viewBox="0 0 1440 180" preserveAspectRatio="none"><path fill="#1d5a6e" d="M0 90 Q90 60 180 90 T360 90 T540 90 T720 90 T900 90 T1080 90 T1260 90 T1440 90 V180 H0Z"/></svg>
+    <svg class="w2" viewBox="0 0 1440 180" preserveAspectRatio="none"><path fill="#164a5b" d="M0 115 Q120 90 240 115 T480 115 T720 115 T960 115 T1200 115 T1440 115 V180 H0Z"/></svg>
+    <svg class="w3" viewBox="0 0 1440 180" preserveAspectRatio="none"><path fill="#0f3b4c" d="M0 140 Q60 125 120 140 T240 140 T360 140 T480 140 T600 140 T720 140 T840 140 T960 140 T1080 140 T1200 140 T1320 140 T1440 140 V180 H0Z"/></svg>
+  </div>
+
+  <footer>&copy; <span id="y">2026</span> Nieuwe Vaart</footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
