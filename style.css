@@ -380,6 +380,42 @@ i,.water-naam{font-style:italic}
 .spel strong svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
 .spel__tekst>span{display:block;font-size:1rem;line-height:1.5;color:var(--grijs)}
 .merk__logo{width:52px;height:52px;flex:none}
+.menu ul{gap:18px}
+.pagina-titel{font-size:clamp(2.6rem,1.7rem + 3.4vw,4.25rem);line-height:.95;margin-bottom:.35em}
+/* Agenda */
+.agenda-filters{display:flex;flex-wrap:wrap;gap:8px;margin-top:28px}
+.agenda-filters .tab[aria-pressed="true"]{background:var(--blouw);color:#fff}
+.agenda-lijst{margin-top:12px}
+.agenda-maand{margin:40px 0 4px;font-size:1.5rem;text-transform:capitalize}
+.agenda-items{margin:0;padding:0;list-style:none}
+.agenda-item{--kleur:var(--vadedo);display:grid;grid-template-columns:64px minmax(0,1fr);gap:18px;padding:18px 0;border-bottom:1px solid var(--lijn)}
+.agenda-item--speciaal{--kleur:var(--das)}
+.agenda-item--kamp{--kleur:#C8641B}
+.agenda-item__datum{display:grid;justify-items:center;align-content:start;padding:8px 0 10px;border-top:4px solid var(--kleur);border-radius:0 0 4px 4px;background:var(--mist);font-family:var(--kop);font-weight:700;line-height:1;color:var(--blouw)}
+.agenda-item__dag{font-size:.85rem;font-weight:400;color:var(--grijs)}
+.agenda-item__nr{margin:4px 0 3px;font-size:1.75rem}
+.agenda-item__mnd{font-size:.9rem}
+.agenda-item__soort{display:block;margin-bottom:3px;font-family:var(--kop);font-weight:700;font-size:.85rem;letter-spacing:.04em;text-transform:uppercase;color:var(--kleur)}
+.agenda-item__titel{margin:0 0 4px;font-size:1.3rem}
+.agenda-item__meta{margin:0;font-size:1rem;color:var(--grijs);-webkit-hyphens:manual;hyphens:manual}
+.agenda-item__info{margin-top:8px;font-size:1rem}
+.agenda-item__info summary{cursor:pointer;font-family:var(--kop);font-weight:700;color:var(--vadedo)}
+.agenda-item__info p{margin:.5em 0 0;max-width:40em}
+.agenda-leeg{margin:24px 0;color:var(--grijs)}
+.agenda-bron{margin-top:20px}
+.abos{margin:28px 0 0;padding:0;list-style:none}
+.abo{--kleur:var(--vadedo);display:grid;gap:10px;padding:16px 0 16px 16px;border-left:4px solid var(--kleur);border-bottom:1px solid var(--lijn);background:#fff}
+.abo.agenda-item--speciaal{--kleur:var(--das)}
+.abo.agenda-item--kamp{--kleur:#C8641B}
+.abo__naam{font-family:var(--kop);font-weight:700;font-size:1.25rem;color:var(--blouw)}
+.abo__knoppen{display:flex;flex-wrap:wrap;gap:8px;padding-right:16px}
+@media (min-width:760px){.abo{grid-template-columns:minmax(0,1fr) auto;align-items:center}}
+.abo__melding{min-height:1.4em;margin-top:12px}
+.binnenkort{padding-block:clamp(48px,6vw,80px)}
+.binnenkort__kop{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 24px}
+.binnenkort__kop h2{margin:0}
+.agenda-items--kort{display:grid;gap:0 32px;margin-top:16px}
+@media (min-width:860px){.agenda-items--kort{grid-template-columns:repeat(3,minmax(0,1fr))}.agenda-items--kort .agenda-item{border-bottom:0;border-top:1px solid var(--lijn)}}
 .menu ul a.menu__extern{display:inline-flex;align-items:center;gap:5px}
 .menu__extern svg{width:13px;height:13px;flex:none;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
 @media (max-width:1219px){.js .menu ul a.menu__extern{display:flex}}

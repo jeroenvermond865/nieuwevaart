@@ -55,6 +55,7 @@
     <nav class="menu" id="hoofdmenu" aria-label="Hoofdmenu">
       <ul>
         <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="agenda.html">Agenda</a></li>
         <li><a href="kampen.html">Kampen</a></li>
         <li><a href="zeilen.html">WSA (CWO)</a></li>
         <li><a href="spullen.html">Veiligheid</a></li>
@@ -143,6 +144,16 @@
           <text class="kaartlabel" x="580" y="546" text-anchor="end">Vadedoplas</text>
         </svg>
       </div>
+    </div>
+  </section>
+
+  <section class="sectie binnenkort" id="binnenkort" aria-labelledby="binnenkort-titel">
+    <div class="wrap">
+      <div class="binnenkort__kop">
+        <h2 id="binnenkort-titel">Binnenkort</h2>
+        <a class="knop knop--rand knop--klein" href="agenda.html">Hele agenda</a>
+      </div>
+      <div id="binnenkort-lijst" aria-live="polite"><p class="agenda-leeg">Agenda laden…</p></div>
     </div>
   </section>
 
@@ -272,5 +283,8 @@
 </footer>
 
 <script src="script.js"></script>
+<script src="agenda-instellingen.js"></script>
+<script src="agenda-ics.js"></script>
+<script src="agenda.js"></script>
 </body>
 </html>
