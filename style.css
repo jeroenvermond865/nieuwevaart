@@ -223,6 +223,8 @@ i,.water-naam{font-style:italic}
 .elk-kamp{margin-top:64px;padding:28px;border-radius:4px;background:var(--mist)}
 .elk-kamp .lijst{columns:1;column-gap:48px}
 @media (min-width:860px){.elk-kamp .lijst{columns:2}.elk-kamp .lijst li{break-inside:avoid}}
+.elk-kamp.boodschappen{margin-top:24px}
+.boodschappen p{margin:0 0 16px}
 
 /* Paklijsten */
 .tabs{display:none;flex-wrap:wrap;gap:8px;margin-top:32px}
