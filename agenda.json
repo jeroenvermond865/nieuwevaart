@@ -1,1 +1,399 @@
-{"bijgewerkt": null, "status": {}, "items": []}
+{
+ "bijgewerkt": "2026-10-24T19:27:36.733Z",
+ "status": {
+  "opkomst": {
+   "ok": true,
+   "aantal": 25
+  },
+  "speciaal": {
+   "ok": true,
+   "aantal": 7
+  },
+  "kamp": {
+   "ok": true,
+   "aantal": 6
+  }
+ },
+ "items": [
+  {
+   "id": "d5vV3M3bKDhG6p8ANwnE|1792234800000",
+   "cat": "kamp",
+   "titel": "Herfstkamp",
+   "start": "2026-10-17T11:00",
+   "eind": "2026-10-20T16:00",
+   "heleDag": false,
+   "plek": "Boterhuiseiland",
+   "info": ""
+  },
+  {
+   "id": "plPpD7O2xjTXY8Z8K2Rn|1792843200000",
+   "cat": "opkomst",
+   "titel": "Opkomst",
+   "start": "2026-10-24T12:00",
+   "eind": "2026-10-24T16:30",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": "Zorg dat uw kind genoeg lunchpakket, iets te snacken, drinken en kleding mee heeft. Bij lekker weer wordt er vaak gezwommen dus een handdoek is dan geen overbodige luxe. Ook bij kouder of nat weer gaan wij het water op dus zorg dan voor voldoende kleren en een zeil/regenpak. Laarzen zijn ivm de veiligheid op het water niet toegestaan."
+  },
+  {
+   "id": "vyqmv7jxNVcoQJBJXRbm|1793448000000",
+   "cat": "opkomst",
+   "titel": "Opkomst",
+   "start": "2026-10-31T12:00",
+   "eind": "2026-10-31T16:30",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": "Zorg dat uw kind genoeg lunchpakket, iets te snacken, drinken en kleding mee heeft. Bij lekker weer wordt er vaak gezwommen dus een handdoek is dan geen overbodige luxe. Ook bij kouder of nat weer gaan wij het water op dus zorg dan voor voldoende kleren en een zeil/regenpak. Laarzen zijn ivm de veiligheid op het water niet toegestaan."
+  },
+  {
+   "id": "EKyZLdePDGS9pgMgDoa2|1794051000000",
+   "cat": "speciaal",
+   "titel": "Installeren + Oudermeezeildag + BBQ",
+   "start": "2026-11-07T11:30",
+   "eind": "2026-11-07T20:00",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": "De info volgt in een aparte brief"
+  },
+  {
+   "id": "RGEYAqjroyFxbnDnMYlP|1794652200000",
+   "cat": "opkomst",
+   "titel": "Boten uit het water!",
+   "start": "2026-11-14T10:30",
+   "eind": "2026-11-14T17:00",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": "Algemene info\nDeze dag zullen we samen met de leden beginnen met het winteronderhoud. Dit beginent bij de boten uit het water halen. Vanaf dit moment gaan we dus ook klussen aan de boten. \nWe gaan aan de slag met de boten en het houtwerk. Wat moet uw kind hiervoor meenemen? Een overall of kleding die vies mag worden, aangezien er nog wel eens verf gemorst wordt. De overalls kunnen, net zoals de reddingvesten, op scouting bewaard worden.Daarnaast moet iedereen tijdens het winterseizoen een eigen plastic veiligheidsbril en een ffp2 masker meenemen naar scouting. Deze kan je allebei bij de toolst"
+  },
+  {
+   "id": "d5vNn7QDMycm4NKNJy6j|1795262400000",
+   "cat": "opkomst",
+   "titel": "Winter opkomst",
+   "start": "2026-11-21T12:00",
+   "eind": "2026-11-21T16:30",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": "Algemene info\nTijdens het winteronderhoud gaan we aan de slag met de boten en het houtwerk. Wat moet uw kind hiervoor meenemen? Een overall of kleding die vies mag worden, aangezien er nog wel eens verf gemorst wordt. De overalls kunnen, net zoals de reddingvesten, op scouting bewaard worden.Daarnaast moet iedereen tijdens het winterseizoen een eigen plastic veiligheidsbril en een ffp2 masker meenemen naar scouting. Deze kan je allebei bij de toolstation in Leiderdorp kopen. Een vuurwerkbril mag ook. Ook de oordopjes/oorkappen niet vergeten, die verplichten we zelfs als er met machines gewerkt"
+  },
+  {
+   "id": "BKO4LG27lLhZrg5gLEXO|1795867200000",
+   "cat": "speciaal",
+   "titel": "Opkomst + Sinterklaas",
+   "start": "2026-11-28T12:00",
+   "eind": "2026-11-28T16:30",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": "Deze zaterdag gaan klussen maar komt ook sinterklaas langs. Alle leden nemen een ingepakt cadeau mee van €7,5. Aan het eind van de opkomst gaat iedereen weer met een cadeau naar huis. De opkomst zal tot ongeveer 16:30 uur duren. Er zal echter geen broodje van de week zijn!!"
+  },
+  {
+   "id": "X3wR7aVnqycNQ9B9nArR|1796472000000",
+   "cat": "opkomst",
+   "titel": "Winter opkomst",
+   "start": "2026-12-05T12:00",
+   "eind": "2026-12-05T16:00",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": "We stoppen deze opkomst iets eerder vanwege 5 dec!\n\nAlgemene info\nTijdens het winteronderhoud gaan we aan de slag met de boten en het houtwerk. Wat moet uw kind hiervoor meenemen? Een overall of kleding die vies mag worden, aangezien er nog wel eens verf gemorst wordt. De overalls kunnen, net zoals de reddingvesten, op scouting bewaard worden.Daarnaast moet iedereen tijdens het winterseizoen een eigen plastic veiligheidsbril en een ffp2 masker meenemen naar scouting. Deze kan je allebei bij de toolstation in Leiderdorp kopen. Een vuurwerkbril mag ook. Ook de oordopjes/oorkappen niet vergeten, "
+  },
+  {
+   "id": "2bALylZ2R3uQbX6Xpgoz|1797076800000",
+   "cat": "opkomst",
+   "titel": "Winter opkomst",
+   "start": "2026-12-12T12:00",
+   "eind": "2026-12-12T16:30",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": "Algemene info\nTijdens het winteronderhoud gaan we aan de slag met de boten en het houtwerk. Wat moet uw kind hiervoor meenemen? Een overall of kleding die vies mag worden, aangezien er nog wel eens verf gemorst wordt. De overalls kunnen, net zoals de reddingvesten, op scouting bewaard worden.Daarnaast moet iedereen tijdens het winterseizoen een eigen plastic veiligheidsbril en een ffp2 masker meenemen naar scouting. Deze kan je allebei bij de toolstation in Leiderdorp kopen. Een vuurwerkbril mag ook. Ook de oordopjes/oorkappen niet vergeten, die verplichten we zelfs als er met machines gewerkt"
+  },
+  {
+   "id": "bNqVnL5L98udNPQwgGGm|1797616800000",
+   "cat": "speciaal",
+   "titel": "Kerstdiner",
+   "start": "2026-12-18T18:00",
+   "eind": "2026-12-18T21:30",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": "Deze vrijdag hebben we met de Nieuwe Vaart kerstdiner! 🎄De rest van de info volgt in een losse brief!We vragen u om uw kind af te melden als die niet komt. Dit kan door in de agenda bij het kerstdiner uw kind op afwezig te zetten."
+  },
+  {
+   "id": "8lbQEr5P7ZT8vbDba5za|1797681600000",
+   "cat": "opkomst",
+   "titel": "Winter opkomst",
+   "start": "2026-12-19T12:00",
+   "eind": "2026-12-19T16:30",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": "Algemene info\nTijdens het winteronderhoud gaan we aan de slag met de boten en het houtwerk. Wat moet uw kind hiervoor meenemen? Een overall of kleding die vies mag worden, aangezien er nog wel eens verf gemorst wordt. De overalls kunnen, net zoals de reddingvesten, op scouting bewaard worden.Daarnaast moet iedereen tijdens het winterseizoen een eigen plastic veiligheidsbril en een ffp2 masker meenemen naar scouting. Deze kan je allebei bij de toolstation in Leiderdorp kopen. Een vuurwerkbril mag ook. Ook de oordopjes/oorkappen niet vergeten, die verplichten we zelfs als er met machines gewerkt"
+  },
+  {
+   "id": "Ky25vRbQ8NsERXNXpY5N|1798891200000",
+   "cat": "speciaal",
+   "titel": "Winter + Nieuwjaars opkomst",
+   "start": "2027-01-02T12:00",
+   "eind": "2027-01-02T16:30",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": "We gaan deze dag niet alleen klussen maar ook onze eigen Nieuwjaasduik doen! Neem hiervoor dus je naast je klus kleren ook je zwemkleding en spullen mee!\n\nAlgemene info\nTijdens het winteronderhoud gaan we aan de slag met de boten en het houtwerk. Wat moet uw kind hiervoor meenemen? Een overall of kleding die vies mag worden, aangezien er nog wel eens verf gemorst wordt. De overalls kunnen, net zoals de reddingvesten, op scouting bewaard worden.Daarnaast moet iedereen tijdens het winterseizoen een eigen plastic veiligheidsbril en een ffp2 masker meenemen naar scouting. Deze kan je allebei bij d"
+  },
+  {
+   "id": "7qbY376PRnF2KDzDx7MJ|1799496000000",
+   "cat": "opkomst",
+   "titel": "Winter opkomst",
+   "start": "2027-01-09T12:00",
+   "eind": "2027-01-09T16:30",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": "Algemene info\nTijdens het winteronderhoud gaan we aan de slag met de boten en het houtwerk. Wat moet uw kind hiervoor meenemen? Een overall of kleding die vies mag worden, aangezien er nog wel eens verf gemorst wordt. De overalls kunnen, net zoals de reddingvesten, op scouting bewaard worden.Daarnaast moet iedereen tijdens het winterseizoen een eigen plastic veiligheidsbril en een ffp2 masker meenemen naar scouting. Deze kan je allebei bij de toolstation in Leiderdorp kopen. Een vuurwerkbril mag ook. Ook de oordopjes/oorkappen niet vergeten, die verplichten we zelfs als er met machines gewerkt"
+  },
+  {
+   "id": "a97wjaDL5oHYO3b3dRlj|1800100800000",
+   "cat": "opkomst",
+   "titel": "Winter opkomst",
+   "start": "2027-01-16T12:00",
+   "eind": "2027-01-16T16:30",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": "Algemene info\nTijdens het winteronderhoud gaan we aan de slag met de boten en het houtwerk. Wat moet uw kind hiervoor meenemen? Een overall of kleding die vies mag worden, aangezien er nog wel eens verf gemorst wordt. De overalls kunnen, net zoals de reddingvesten, op scouting bewaard worden.Daarnaast moet iedereen tijdens het winterseizoen een eigen plastic veiligheidsbril en een ffp2 masker meenemen naar scouting. Deze kan je allebei bij de toolstation in Leiderdorp kopen. Een vuurwerkbril mag ook. Ook de oordopjes/oorkappen niet vergeten, die verplichten we zelfs als er met machines gewerkt"
+  },
+  {
+   "id": "d5vNw6MRaBHgrPmnXDqq|1800646200000",
+   "cat": "kamp",
+   "titel": "Winterkamp",
+   "start": "2027-01-22T19:30",
+   "eind": "2027-01-24T14:00",
+   "heleDag": false,
+   "plek": "Nog even Geheim",
+   "info": "Yesss het is weer tijd voor kamp! In dit bericht vind je de nodige informatie, succes met inpakken! De bootsen mogen hun telefoon mee op kamp!Lieve ouders/ verzorgers/meiden,\n\nDe boten kunnen al weer bijna uit de loods. Na al dat verzette werk is het tijd voor een leuk tussendoortje: Winterkamp! Vergeet je kind niet aan te melden voor het winterkamp, dan weten we wie we moeten verwachten. Vul nog wel even de allergieen/diëten in, daar kan nog iets in veranderd zijn.\nLocatieHouden we nog even geheim!Open-dag?Er zullen vast een aantal meiden zijn die tijdens het kamp een open-dag van een middelb"
+  },
+  {
+   "id": "wyXmd5O3zrF4ReXe22Eo|1801310400000",
+   "cat": "opkomst",
+   "titel": "Winter opkomst",
+   "start": "2027-01-30T12:00",
+   "eind": "2027-01-30T16:30",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": "Algemene info\nTijdens het winteronderhoud gaan we aan de slag met de boten en het houtwerk. Wat moet uw kind hiervoor meenemen? Een overall of kleding die vies mag worden, aangezien er nog wel eens verf gemorst wordt. De overalls kunnen, net zoals de reddingvesten, op scouting bewaard worden.Daarnaast moet iedereen tijdens het winterseizoen een eigen plastic veiligheidsbril en een ffp2 masker meenemen naar scouting. Deze kan je allebei bij de toolstation in Leiderdorp kopen. Een vuurwerkbril mag ook. Ook de oordopjes/oorkappen niet vergeten, die verplichten we zelfs als er met machines gewerkt"
+  },
+  {
+   "id": "LKmPXQLX9Nfzj7vR3nxo|1801908000000",
+   "cat": "speciaal",
+   "titel": "Stroopwafel actie",
+   "start": "2027-02-06T10:00",
+   "eind": "2027-02-06T14:30",
+   "heleDag": false,
+   "plek": "Buitenhoflaan 1 Leiderdorp",
+   "info": "Deze week onze jaarlijkse stroopwafel actie! We verzamelen NIET op scouting maar bij de buitenhoflaan 1 in Leiderdorp, jullie ouders kunnen via de voorverkoop stroopwafels kopen bij ons onderdeel. Zorg wel dat uw kind ze zelf mee naar huis kan nemen of dat u ze kan ophalen! Betaling mag contant (lieft gepast) maar kan ook gepind worden. Ze beginnen eerder maar zijn dus ook eerder klaar!"
+  },
+  {
+   "id": "melYL72dErFKvjAjn2lL|1802520000000",
+   "cat": "opkomst",
+   "titel": "Winter opkomst",
+   "start": "2027-02-13T12:00",
+   "eind": "2027-02-13T16:30",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": "Algemene info\nTijdens het winteronderhoud gaan we aan de slag met de boten en het houtwerk. Wat moet uw kind hiervoor meenemen? Een overall of kleding die vies mag worden, aangezien er nog wel eens verf gemorst wordt. De overalls kunnen, net zoals de reddingvesten, op scouting bewaard worden.Daarnaast moet iedereen tijdens het winterseizoen een eigen plastic veiligheidsbril en een ffp2 masker meenemen naar scouting. Deze kan je allebei bij de toolstation in Leiderdorp kopen. Een vuurwerkbril mag ook. Ook de oordopjes/oorkappen niet vergeten, die verplichten we zelfs als er met machines gewerkt"
+  },
+  {
+   "id": "gMOJVqvQbyHR2yEy8VaY|1803121200000",
+   "cat": "opkomst",
+   "titel": "Boten het water in!",
+   "start": "2027-02-20T11:00",
+   "eind": "2027-02-20T16:30",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": "Deze dag gaan we de boten weer in het water leggen. Algemene info\nTijdens het winteronderhoud gaan we aan de slag met de boten en het houtwerk. Wat moet uw kind hiervoor meenemen? Een overall of kleding die vies mag worden, aangezien er nog wel eens verf gemorst wordt. De overalls kunnen, net zoals de reddingvesten, op scouting bewaard worden.Daarnaast moet iedereen tijdens het winterseizoen een eigen plastic veiligheidsbril en een ffp2 masker meenemen naar scouting. Deze kan je allebei bij de toolstation in Leiderdorp kopen. Een vuurwerkbril mag ook. Ook de oordopjes/oorkappen niet vergeten, "
+  },
+  {
+   "id": "PKrDRa3PoysjelMlpGNA|1803729600000",
+   "cat": "opkomst",
+   "titel": "Opkomst",
+   "start": "2027-02-27T12:00",
+   "eind": "2027-02-27T16:30",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": "Zorg dat uw kind genoeg lunchpakket, iets te snacken, drinken en kleding mee heeft. Bij lekker weer wordt er vaak gezwommen dus een handdoek is dan geen overbodige luxe. Ook bij kouder of nat weer gaan wij het water op dus zorg dan voor voldoende kleren en een zeil/regenpak. Laarzen zijn ivm de veiligheid op het water niet toegestaan."
+  },
+  {
+   "id": "ovAezaKX4EF7v8a8xzN3|1804334400000",
+   "cat": "opkomst",
+   "titel": "Opkomst",
+   "start": "2027-03-06T12:00",
+   "eind": "2027-03-06T16:30",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": "Zorg dat uw kind genoeg lunchpakket, iets te snacken, drinken en kleding mee heeft. Bij lekker weer wordt er vaak gezwommen dus een handdoek is dan geen overbodige luxe. Ook bij kouder of nat weer gaan wij het water op dus zorg dan voor voldoende kleren en een zeil/regenpak. Laarzen zijn ivm de veiligheid op het water niet toegestaan."
+  },
+  {
+   "id": "qRYvbm7rn4uqaPnP6Y8J|1804939200000",
+   "cat": "opkomst",
+   "titel": "Opkomst",
+   "start": "2027-03-13T12:00",
+   "eind": "2027-03-13T16:30",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": "Zorg dat uw kind genoeg lunchpakket, iets te snacken, drinken en kleding mee heeft. Bij lekker weer wordt er vaak gezwommen dus een handdoek is dan geen overbodige luxe. Ook bij kouder of nat weer gaan wij het water op dus zorg dan voor voldoende kleren en een zeil/regenpak. Laarzen zijn ivm de veiligheid op het water niet toegestaan."
+  },
+  {
+   "id": "rdglY7a3Zxu8YzDzLNq6|1805544000000",
+   "cat": "opkomst",
+   "titel": "Opkomst",
+   "start": "2027-03-20T12:00",
+   "eind": "2027-03-20T16:30",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": "Zorg dat uw kind genoeg lunchpakket, iets te snacken, drinken en kleding mee heeft. Bij lekker weer wordt er vaak gezwommen dus een handdoek is dan geen overbodige luxe. Ook bij kouder of nat weer gaan wij het water op dus zorg dan voor voldoende kleren en een zeil/regenpak. Laarzen zijn ivm de veiligheid op het water niet toegestaan."
+  },
+  {
+   "id": "3YAqBlwPREspYZ5ZwR6P|1806148800000",
+   "cat": "opkomst",
+   "titel": "Opkomst",
+   "start": "2027-03-27T12:00",
+   "eind": "2027-03-27T16:30",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": "Zorg dat uw kind genoeg lunchpakket, iets te snacken, drinken en kleding mee heeft. Bij lekker weer wordt er vaak gezwommen dus een handdoek is dan geen overbodige luxe. Ook bij kouder of nat weer gaan wij het water op dus zorg dan voor voldoende kleren en een zeil/regenpak. Laarzen zijn ivm de veiligheid op het water niet toegestaan."
+  },
+  {
+   "id": "EKyPvjyG9vt97xaPdp7l|1806753600000",
+   "cat": "speciaal",
+   "titel": "Vriendin(netjes)dag!",
+   "start": "2027-04-03T12:00",
+   "eind": "2027-04-03T16:30",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": "Zorg dat uw kind genoeg lunchpakket, iets te snacken, drinken en kleding mee heeft. Bij lekker weer wordt er vaak gezwommen dus een handdoek is dan geen overbodige luxe. Ook bij kouder of nat weer gaan wij het water op dus zorg dan voor voldoende kleren en een zeil/regenpak. Laarzen zijn ivm de veiligheid op het water niet toegestaan."
+  },
+  {
+   "id": "4QbzGKVPRjspvxJxGyeM|1807963200000",
+   "cat": "opkomst",
+   "titel": "Opkomst",
+   "start": "2027-04-17T12:00",
+   "eind": "2027-04-17T16:30",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": "Zorg dat uw kind genoeg lunchpakket, iets te snacken, drinken en kleding mee heeft. Bij lekker weer wordt er vaak gezwommen dus een handdoek is dan geen overbodige luxe. Ook bij kouder of nat weer gaan wij het water op dus zorg dan voor voldoende kleren en een zeil/regenpak. Laarzen zijn ivm de veiligheid op het water niet toegestaan."
+  },
+  {
+   "id": "xyYmR3xZ5NcvapmpgJMM|1808568000000",
+   "cat": "opkomst",
+   "titel": "Opkomst",
+   "start": "2027-04-24T12:00",
+   "eind": "2027-04-24T16:30",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": "Zorg dat uw kind genoeg lunchpakket, iets te snacken, drinken en kleding mee heeft. Bij lekker weer wordt er vaak gezwommen dus een handdoek is dan geen overbodige luxe. Ook bij kouder of nat weer gaan wij het water op dus zorg dan voor voldoende kleren en een zeil/regenpak. Laarzen zijn ivm de veiligheid op het water niet toegestaan."
+  },
+  {
+   "id": "npvQM78Aj3uOJRPRVnKe|1809172800000",
+   "cat": "opkomst",
+   "titel": "Opkomst",
+   "start": "2027-05-01T12:00",
+   "eind": "2027-05-01T16:30",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": "Zorg dat uw kind genoeg lunchpakket, iets te snacken, drinken en kleding mee heeft. Bij lekker weer wordt er vaak gezwommen dus een handdoek is dan geen overbodige luxe. Ook bij kouder of nat weer gaan wij het water op dus zorg dan voor voldoende kleren en een zeil/regenpak. Laarzen zijn ivm de veiligheid op het water niet toegestaan."
+  },
+  {
+   "id": "jb8zjGN8zNuGRPXnAxQv|1809370800000",
+   "cat": "kamp",
+   "titel": "Boten inpakken!",
+   "start": "2027-05-03T19:00",
+   "eind": "2027-05-03T21:00",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": ""
+  },
+  {
+   "id": "5ebD78wy9ZSJNbpbEKXe|1809601200000",
+   "cat": "kamp",
+   "titel": "Kaagcup",
+   "start": "2027-05-06T11:00",
+   "eind": "2027-05-09T16:00",
+   "heleDag": false,
+   "plek": "Boterhuis eiland (Kaagerplassen)",
+   "info": "Beste meiden, ouders en/of verzorgers,De boten liggen nog maar net in het water, maar het is al weer tijd voor kamp!!!Een van de grootste zeilevenementen van dit jaar komt er weer aan;Kaagcup! Met ongeveer 300 boten uit heel Zuid-Holland, Noord-Holland en Zeeland gaan we in het Hemelvaartsweekend de Kagerplassen onveilig maken. Dit weekend gaan we een aantal zeilwedstrijden doen tegen andere scoutinggroepen. Wij doen mee in de instructie klasse, waarbij de meiden de wedstrijd zeilen, maar dat er altijd een leidingslid aan boord is om in te grijpen als dat nodig is. Het kamp begint op donderdag"
+  },
+  {
+   "id": "AKRKXZKlARhNz5oVJBYw|1810378800000",
+   "cat": "kamp",
+   "titel": "Tenten opvouwen kaagcup",
+   "start": "2027-05-15T11:00",
+   "eind": "2027-05-15T12:00",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": ""
+  },
+  {
+   "id": "wyXmlr4n69cKYxdxMNL3|1810382400000",
+   "cat": "opkomst",
+   "titel": "Opkomst",
+   "start": "2027-05-15T12:00",
+   "eind": "2027-05-15T16:30",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": "Zorg dat uw kind genoeg lunchpakket, iets te snacken, drinken en kleding mee heeft. Bij lekker weer wordt er vaak gezwommen dus een handdoek is dan geen overbodige luxe. Ook bij kouder of nat weer gaan wij het water op dus zorg dan voor voldoende kleren en een zeil/regenpak. Laarzen zijn ivm de veiligheid op het water niet toegestaan."
+  },
+  {
+   "id": "OKRP56QK26ivBEB8GoV4|1810987200000",
+   "cat": "speciaal",
+   "titel": "Doordraaidag!",
+   "start": "2027-05-22T12:00",
+   "eind": "2027-05-22T16:30",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": "De overvliegers van de stuurboord en kabouters draaien met ons mee. De 3e jaar draaien gezellig met de vaart mee!Zorg dat uw kind genoeg lunchpakket, iets te snacken, drinken en kleding mee heeft. Bij lekker weer wordt er vaak gezwommen dus een handdoek is dan geen overbodige luxe. Ook bij kouder of nat weer gaan wij het water op dus zorg dan voor voldoende kleren en een zeil/regenpak. Laarzen zijn ivm de veiligheid op het water niet toegestaan."
+  },
+  {
+   "id": "jb8vq8ZRRwUZJmD9mNDJ|1811592000000",
+   "cat": "opkomst",
+   "titel": "Opkomst",
+   "start": "2027-05-29T12:00",
+   "eind": "2027-05-29T16:30",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": "Zorg dat uw kind genoeg lunchpakket, iets te snacken, drinken en kleding mee heeft. Bij lekker weer wordt er vaak gezwommen dus een handdoek is dan geen overbodige luxe. Ook bij kouder of nat weer gaan wij het water op dus zorg dan voor voldoende kleren en een zeil/regenpak. Laarzen zijn ivm de veiligheid op het water niet toegestaan."
+  },
+  {
+   "id": "ovAezaKX4EF7v8a8xzNj|1812196800000",
+   "cat": "opkomst",
+   "titel": "Opkomst",
+   "start": "2027-06-05T12:00",
+   "eind": "2027-06-05T16:30",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": "Zorg dat uw kind genoeg lunchpakket, iets te snacken, drinken en kleding mee heeft. Bij lekker weer wordt er vaak gezwommen dus een handdoek is dan geen overbodige luxe. Ook bij kouder of nat weer gaan wij het water op dus zorg dan voor voldoende kleren en een zeil/regenpak. Laarzen zijn ivm de veiligheid op het water niet toegestaan."
+  },
+  {
+   "id": "qRYvbm7rn4uqaPnP6Y85|1812801600000",
+   "cat": "opkomst",
+   "titel": "Opkomst",
+   "start": "2027-06-12T12:00",
+   "eind": "2027-06-12T16:30",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": "Zorg dat uw kind genoeg lunchpakket, iets te snacken, drinken en kleding mee heeft. Bij lekker weer wordt er vaak gezwommen dus een handdoek is dan geen overbodige luxe. Ook bij kouder of nat weer gaan wij het water op dus zorg dan voor voldoende kleren en een zeil/regenpak. Laarzen zijn ivm de veiligheid op het water niet toegestaan."
+  },
+  {
+   "id": "rdglY7a3Zxu8YzDzLNqD|1813406400000",
+   "cat": "opkomst",
+   "titel": "Laatste opkomst (Hierna zomerkamp voorbereidingen)",
+   "start": "2027-06-19T12:00",
+   "eind": "2027-06-19T16:30",
+   "heleDag": false,
+   "plek": "Boomgaardlaan 24 Leiderdorp",
+   "info": "Zorg dat uw kind genoeg lunchpakket, iets te snacken, drinken en kleding mee heeft. Bij lekker weer wordt er vaak gezwommen dus een handdoek is dan geen overbodige luxe. Ook bij kouder of nat weer gaan wij het water op dus zorg dan voor voldoende kleren en een zeil/regenpak. Laarzen zijn ivm de veiligheid op het water niet toegestaan."
+  },
+  {
+   "id": "DKanqorvPKsJnx76QEjK|1815822000000",
+   "cat": "kamp",
+   "titel": "Zomerkamp!",
+   "start": "2027-07-17T11:00",
+   "eind": "2027-07-24T12:00",
+   "heleDag": false,
+   "plek": "Nog even geheim!",
+   "info": ""
+  }
+ ]
+}
