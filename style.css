@@ -379,6 +379,23 @@ i,.water-naam{font-style:italic}
 .spel strong{display:flex;align-items:center;gap:8px;margin-bottom:6px;font-family:var(--kop);font-weight:700;font-size:1.6rem;line-height:1.1;color:var(--blouw)}
 .spel strong svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
 .spel__tekst>span{display:block;font-size:1rem;line-height:1.5;color:var(--grijs)}
+.vloot__kop{margin-top:48px;font-size:1.5rem}
+.vloot__kop--rest{margin-top:64px}
+.vloot--eigen{margin-top:16px}
+.vloot__jaar{font-size:.95rem;color:var(--grijs)}
+@media (min-width:700px){.vloot--eigen{grid-template-columns:repeat(2,minmax(0,1fr))}.vloot__jaar{grid-column:2}}
+@media (min-width:1000px){.vloot--eigen{grid-template-columns:repeat(4,minmax(0,1fr));column-gap:32px}.vloot--eigen li{grid-template-columns:minmax(0,1fr)}.vloot--eigen .vloot__jaar{grid-column:1}}
+.vloot__sleper{margin-top:20px;font-size:1rem;color:var(--grijs)}
+.vloot__sleper strong{font-family:var(--kop);font-size:1.1rem;color:var(--blouw)}
+.vloot-rest{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 24px;margin-top:20px}
+@media (min-width:900px){.vloot-rest{grid-template-columns:repeat(4,minmax(0,1fr));gap:32px}}
+.vloot-rest__groep{padding-top:14px;border-top:2px solid var(--blouw)}
+.vloot-rest h4{font-size:1.15rem}
+.vloot-rest__tweede{margin-top:22px}
+.vloot-rest ul{margin:0;padding:0;list-style:none}
+.vloot-rest li{padding:5px 0;border-bottom:1px solid var(--lijn);font-size:1rem;line-height:1.35}
+.vloot-rest li span{display:inline-block;min-width:3em;font-family:var(--kop);font-weight:700;color:var(--das);font-variant-numeric:tabular-nums}
+.vloot-rest__sleper{color:var(--grijs);font-style:italic}
 
 /* Minecraft */
 .mc{display:grid;gap:40px}
