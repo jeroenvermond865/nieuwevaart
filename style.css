@@ -82,7 +82,7 @@ i,.water-naam{font-style:italic}
 .menu ul a{padding:6px 0;border-bottom:2px solid transparent;font-family:var(--kop);font-weight:700;font-size:1.0625rem;color:var(--blouw);text-decoration:none}
 .menu ul a:hover{border-bottom-color:var(--das);color:var(--blouw)}
 .menuknop{display:none}
-@media (max-width:1219px){
+@media (max-width:1023px){
   .kop__inner{flex-wrap:wrap}
   .menu ul{flex-wrap:wrap;gap:6px 18px}
   .js .kop__inner{flex-wrap:nowrap}
@@ -380,6 +380,78 @@ i,.water-naam{font-style:italic}
 .spel strong svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
 .spel__tekst>span{display:block;font-size:1rem;line-height:1.5;color:var(--grijs)}
 .merk__logo{width:52px;height:52px;flex:none}
+/* Wiki-inhoud in de sitestijl */
+.wiki-inhoud{max-width:46rem}
+.wiki-inhoud h3{margin:1.4em 0 .4em;font-size:1.45rem}
+.wiki-inhoud h4{margin:1.2em 0 .35em;font-size:1.2rem}
+.wiki-inhoud h5{margin:1em 0 .3em;font-size:1.05rem;color:var(--das)}
+.wiki-inhoud>:first-child{margin-top:0}
+.wiki-inhoud p{font-size:1rem}
+.wiki-inhoud ul,.wiki-inhoud ol{margin:.4em 0 1em;padding:0;font-size:1rem;line-height:1.45}
+.wiki-inhoud ul{list-style:none}
+.wiki-inhoud ul>li{position:relative;padding:6px 0 6px 22px;border-bottom:1px solid var(--lijn)}
+.wiki-inhoud ul>li::before{content:"";position:absolute;left:2px;top:14px;width:8px;height:8px;border-radius:50%;background:var(--das)}
+.wiki-inhoud ol{padding-left:1.4em}
+.wiki-inhoud ol>li{padding:4px 0 4px 4px}
+.wiki-inhoud ol>li::marker{font-family:var(--kop);font-weight:700;color:var(--das)}
+.wiki-inhoud li ul{margin:.3em 0 0}
+.wiki-inhoud img{display:block;max-width:100%;height:auto;margin:12px 0;border:1px solid var(--lijn);border-radius:4px}
+.wiki-tabel{margin:16px 0 20px;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.wiki-tabel table{width:100%;border-collapse:collapse;font-size:1rem;line-height:1.4}
+.wiki-tabel th{padding:10px 12px;border-bottom:2px solid var(--blouw);font-family:var(--kop);font-weight:700;text-align:left;color:var(--blouw);background:var(--mist);vertical-align:bottom}
+.wiki-tabel td{padding:9px 12px;border-bottom:1px solid var(--lijn);vertical-align:top}
+.wiki-bron{margin-top:16px;font-size:.95rem;color:var(--grijs)}
+/* Kaagcup */
+.kaag-tabel{max-width:52rem}
+.kaag-tabel td{vertical-align:middle}
+.kaag-jaar{font-family:var(--kop);font-weight:700;color:var(--blouw);font-variant-numeric:tabular-nums}
+.kaag-nr{display:inline-block;min-width:2.8em;font-family:var(--kop);font-weight:700;color:var(--das);font-variant-numeric:tabular-nums}
+.kaag-wij{display:inline-block;margin-left:10px;padding:2px 8px;border-radius:99px;background:var(--das);color:#fff;font-family:var(--kop);font-weight:700;font-size:.8rem;vertical-align:1px}
+.kaag-tabel tr.is-eigen td{background:#fff}
+.medaille{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:50%;font-family:var(--kop);font-weight:700;font-size:.95rem;color:var(--blouw);background:#EEE3E9}
+.medaille--1{background:#F2C14E}
+.medaille--2{background:#D5D9E0}
+.medaille--3{background:#DDA073}
+#kaagcup-wiki .agenda-filters{margin-top:4px}
+/* Voor leiding */
+.leiding-index{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 8px}
+.leiding-index a{padding:.4em 1em;border:2px solid var(--blouw);border-radius:3px;font-family:var(--kop);font-weight:700;color:var(--blouw);text-decoration:none}
+.leiding-index a:hover{background:var(--blouw);color:#fff}
+.leiding-groep{margin-top:48px}
+.leiding-groep h2{font-size:clamp(1.8rem,1.3rem + 1.6vw,2.4rem)}
+.wiki-blok{border-top:2px solid var(--blouw)}
+.wiki-blok:last-child{border-bottom:2px solid var(--blouw)}
+.wiki-blok summary{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 4px;cursor:pointer;list-style:none;font-family:var(--kop);font-weight:700;font-size:1.3rem;color:var(--blouw)}
+.wiki-blok summary::-webkit-details-marker{display:none}
+.wiki-blok summary::after{content:"+";flex:none;display:grid;place-items:center;width:32px;height:32px;border-radius:50%;background:var(--mist);color:var(--das);font-size:1.4rem;line-height:1}
+.wiki-blok[open] summary::after{content:"−"}
+.wiki-blok summary:hover{color:var(--das)}
+.wiki-blok__body{padding:4px 4px 28px}
+/* Uitklapmenu (drie streepjes) */
+.meer{position:relative}
+.meer__knop{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-width:44px;height:40px;padding:0 9px;border:2px solid var(--blouw);border-radius:3px;background:transparent;color:var(--blouw);font-family:var(--kop);font-weight:700;font-size:1.0625rem;cursor:pointer}
+.meer__knop svg{width:22px;height:22px;flex:none;fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round}
+.meer__knop:hover,.meer__knop[aria-expanded="true"]{background:var(--blouw);color:#fff}
+.meer--hier .meer__knop{border-color:var(--das)}
+.meer__tekst{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+.menu .meer__lijst{display:none;position:absolute;right:0;top:calc(100% + 10px);z-index:60;min-width:230px;margin:0;padding:8px 0;list-style:none;background:#fff;border:1px solid var(--lijn);border-top:4px solid var(--das);border-radius:0 0 4px 4px;box-shadow:0 14px 34px rgba(45,11,36,.16)}
+.menu .meer.is-open .meer__lijst{display:block}
+.menu .meer__lijst a{display:flex;align-items:center;gap:6px;padding:11px 20px;border:0;font-family:var(--kop);font-weight:700;font-size:1.0625rem;color:var(--blouw);text-decoration:none;white-space:nowrap}
+.menu .meer__lijst a:hover,.menu .meer__lijst a[aria-current="page"]{background:var(--mist);color:var(--das)}
+.meer__lijst svg{width:13px;height:13px;flex:none;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+html:not(.js) .meer__knop{display:none}
+html:not(.js) .menu .meer__lijst{display:flex;position:static;padding:0;border:0;box-shadow:none;background:none}
+@media (max-width:1023px){
+  .js .meer{width:100%}
+  .js .meer__knop{width:100%;height:auto;justify-content:flex-start;padding:14px 0;border:0;border-bottom:1px solid var(--lijn);border-radius:0;font-size:1.25rem}
+  .js .meer__knop:hover,.js .meer__knop[aria-expanded="true"]{background:transparent;color:var(--das)}
+  .js .meer--hier .meer__knop{border-color:var(--lijn)}
+  .js .meer__tekst{position:static;width:auto;height:auto;overflow:visible;clip:auto}
+  .js .menu .meer__lijst{position:static;min-width:0;padding:0 0 0 22px;border:0;box-shadow:none;background:none}
+  .js .menu .meer.is-open .meer__lijst{display:flex}
+  .js .menu .meer__lijst a{padding:12px 0;border-bottom:1px solid var(--lijn);font-size:1.15rem}
+  .js .menu .meer__lijst a:hover,.js .menu .meer__lijst a[aria-current="page"]{background:none}
+}
 .menu ul{gap:18px}
 .pagina-titel{font-size:clamp(2.6rem,1.7rem + 3.4vw,4.25rem);line-height:.95;margin-bottom:.35em}
 /* Agenda */
@@ -418,8 +490,8 @@ i,.water-naam{font-style:italic}
 @media (min-width:860px){.agenda-items--kort{grid-template-columns:repeat(3,minmax(0,1fr))}.agenda-items--kort .agenda-item{border-bottom:0;border-top:1px solid var(--lijn)}}
 .menu ul a.menu__extern{display:inline-flex;align-items:center;gap:5px}
 .menu__extern svg{width:13px;height:13px;flex:none;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
-@media (max-width:1219px){.js .menu ul a.menu__extern{display:flex}}
-@media (min-width:1220px){.menu ul{align-items:center}}
+@media (max-width:1023px){.js .menu ul a.menu__extern{display:flex}}
+@media (min-width:1024px){.menu ul{align-items:center}}
 .menu ul a{white-space:nowrap}
 .held h1{font-size:clamp(3.5rem,1.6rem + 6.4vw,6.6rem)}
 .merk__logo--groot{width:80px;height:80px}

@@ -37,11 +37,16 @@
         <li><a href="zeilen.html" aria-current="page">WSA (CWO)</a></li>
         <li><a href="spullen.html">Veiligheid</a></li>
         <li><a href="lid-worden.html">Lid worden</a></li>
-        <li><a href="spellen.html">Online spellen</a></li>
         <li><a href="contact.html">Contact</a></li>
-        <li><a class="menu__extern" href="https://app.scouting.nl/app/#/login?lang=nl_nl" target="_blank" rel="noopener">Scouting App<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M6 3h7v7M13 3 4 12"/></svg><span class="sr-only"> (opent in een nieuw tabblad)</span></a></li>
       </ul>
-      <a class="knop knop--das knop--klein" href="kampen.html#paklijst">Paklijst</a>
+      <div class="meer">
+        <button class="meer__knop" type="button" aria-expanded="false" aria-controls="meer-menu"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span class="meer__tekst">Meer</span></button>
+        <ul class="meer__lijst" id="meer-menu">
+            <li><a href="spellen.html">Online spellen</a></li>
+            <li><a href="voor-leiding.html">Voor leiding</a></li>
+            <li><a class="menu__extern" href="https://app.scouting.nl/app/#/login?lang=nl_nl" target="_blank" rel="noopener">Scouting App<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M6 3h7v7M13 3 4 12"/></svg><span class="sr-only"> (opent in een nieuw tabblad)</span></a></li>
+        </ul>
+      </div>
     </nav>
   </div>
 </header>
@@ -85,6 +90,7 @@
         <p class="intro">We zeilen in lelievletten, het klassieke bootje van de waterscouting. De naam komt van de scoutinglelie. Bij VaDeDo begint de naam van bijna elke boot met Onver-.</p>
       </div>
 
+      <div id="vloot-wiki">
       <h3 class="vloot__kop">Boten van de Nieuwe Vaart</h3>
       <ul class="vloot vloot--eigen" aria-label="Lelievletten van de Nieuwe Vaart, met zeilnummer en bouwjaar">
         <li><span class="vloot__nr">755</span><span class="vloot__naam"><span class="vloot__onver">Onver</span>mijdelijk</span><span class="vloot__jaar">Bouwjaar 1975</span></li>
@@ -141,7 +147,8 @@
           </ul>
         </div>
       </div>
-      <p class="vloot__noot">Ook het troephuis doet mee aan de traditie: dat heet Onveranderd, met het eiland Onverplaatsbaar ernaast. Meer over alle boten, met bouwjaren, lees je op de <a href="https://wiki.vadedo.nl/wiki/Vloot">VaDeDo-wiki</a>.</p>
+      </div>
+      <p class="vloot__noot">Ook het troephuis doet mee aan de traditie: dat heet Onveranderd, met het eiland Onverplaatsbaar ernaast. De lijst komt rechtstreeks van de <a href="https://wiki.vadedo.nl/wiki/Vloot">VaDeDo-wiki</a>.</p>
     </div>
   </section>
 
@@ -172,5 +179,7 @@
 </footer>
 
 <script src="script.js"></script>
+<script src="wiki-instellingen.js"></script>
+<script src="wiki.js"></script>
 </body>
 </html>

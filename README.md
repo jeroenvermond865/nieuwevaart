@@ -7,3 +7,8 @@ Gehost als Static Site op Render (nieuwevaart.onrender.com). Losse pagina's (ind
 De agenda's (Socie, iCal) staan in `agenda-instellingen.js`. De site haalt ze live op; lukt dat niet,
 dan gebruikt hij `agenda.json`. Die wordt elk uur ververst door de GitHub-workflow
 `.github/workflows/agenda.yml` (handmatig starten kan via Actions > Agenda verversen > Run workflow).
+
+## Wiki
+Vloot (WSA-pagina), Kaagcup-prijzen (Kampen), geschiedenis (Lid worden) en de pagina Voor leiding komen
+live van wiki.vadedo.nl. Welke pagina's waar staan, regel je in `wiki-instellingen.js`.
+Terugval: `wiki.json`, elk uur ververst door dezelfde GitHub-workflow.

@@ -125,4 +125,21 @@
       if (tab) tab.focus({ preventScroll: true });
     });
   });
+
+  // Uitklapmenu achter de drie streepjes
+  var meer = $('.meer'), meerKnop = $('.meer__knop');
+  if (meer && meerKnop) {
+    var zetMeer = function (open) {
+      meer.classList.toggle('is-open', open);
+      meerKnop.setAttribute('aria-expanded', String(open));
+    };
+    meerKnop.addEventListener('click', function (e) {
+      e.stopPropagation();
+      zetMeer(meerKnop.getAttribute('aria-expanded') !== 'true');
+    });
+    document.addEventListener('click', function (e) { if (!meer.contains(e.target)) zetMeer(false); });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && meer.classList.contains('is-open')) { zetMeer(false); meerKnop.focus(); }
+    });
+  }
 })();

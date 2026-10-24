@@ -37,11 +37,16 @@
         <li><a href="zeilen.html">WSA (CWO)</a></li>
         <li><a href="spullen.html">Veiligheid</a></li>
         <li><a href="lid-worden.html" aria-current="page">Lid worden</a></li>
-        <li><a href="spellen.html">Online spellen</a></li>
         <li><a href="contact.html">Contact</a></li>
-        <li><a class="menu__extern" href="https://app.scouting.nl/app/#/login?lang=nl_nl" target="_blank" rel="noopener">Scouting App<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M6 3h7v7M13 3 4 12"/></svg><span class="sr-only"> (opent in een nieuw tabblad)</span></a></li>
       </ul>
-      <a class="knop knop--das knop--klein" href="kampen.html#paklijst">Paklijst</a>
+      <div class="meer">
+        <button class="meer__knop" type="button" aria-expanded="false" aria-controls="meer-menu"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span class="meer__tekst">Meer</span></button>
+        <ul class="meer__lijst" id="meer-menu">
+            <li><a href="spellen.html">Online spellen</a></li>
+            <li><a href="voor-leiding.html">Voor leiding</a></li>
+            <li><a class="menu__extern" href="https://app.scouting.nl/app/#/login?lang=nl_nl" target="_blank" rel="noopener">Scouting App<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M6 3h7v7M13 3 4 12"/></svg><span class="sr-only"> (opent in een nieuw tabblad)</span></a></li>
+        </ul>
+      </div>
     </nav>
   </div>
 </header>
@@ -102,6 +107,20 @@
     </div>
   </section>
 
+  <section class="sectie sectie--mist" id="over-vadedo" aria-labelledby="geschiedenis-titel">
+    <div class="wrap">
+      <div class="kolom-tekst">
+        <h2 id="geschiedenis-titel">Over VaDeDo</h2>
+        <div id="geschiedenis-wiki">
+          <div class="wiki-inhoud">
+            <p>De Van der Does Liethorp groep werd opgericht in 1945. Eerst bestond de groep alleen uit landonderdelen, later zijn er ook wateronderdelen bijgekomen.</p>
+            <p>Tot 2005 lag het troephuis De Kleine Zandput in de wijk die nu het Heerlijk Recht is. In 2005 verhuisde de groep naar het nieuwe troephuis Onveranderd in de Munnikenpolder in Leiderdorp. Het troephuis ligt naast de Vadedoplas en heeft een eigen eiland: Onverplaatsbaar.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </main>
 
 <footer class="voet">
@@ -129,5 +148,7 @@
 </footer>
 
 <script src="script.js"></script>
+<script src="wiki-instellingen.js"></script>
+<script src="wiki.js"></script>
 </body>
 </html>
