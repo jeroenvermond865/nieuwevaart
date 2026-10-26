@@ -1,9 +1,9 @@
 {
- "bijgewerkt": "2026-10-24T19:27:36.733Z",
+ "bijgewerkt": "2026-10-26T19:54:15.680Z",
  "status": {
   "opkomst": {
    "ok": true,
-   "aantal": 25
+   "aantal": 28
   },
   "speciaal": {
    "ok": true,
@@ -44,6 +44,16 @@
    "heleDag": false,
    "plek": "Boomgaardlaan 24 Leiderdorp",
    "info": "Zorg dat uw kind genoeg lunchpakket, iets te snacken, drinken en kleding mee heeft. Bij lekker weer wordt er vaak gezwommen dus een handdoek is dan geen overbodige luxe. Ook bij kouder of nat weer gaan wij het water op dus zorg dan voor voldoende kleren en een zeil/regenpak. Laarzen zijn ivm de veiligheid op het water niet toegestaan."
+  },
+  {
+   "id": "rdbdgn9qwVc9y3D82NrA|1794045600000",
+   "cat": "opkomst",
+   "titel": "Klusdag",
+   "start": "2026-11-07T10:00",
+   "eind": "2026-11-07T17:30",
+   "heleDag": false,
+   "plek": "",
+   "info": "Beste ouders en verzorgers,\n\nOok dit jaar organiseren we weer drie klusdagen op zaterdag! Een mooie gelegenheid om samen de handen uit de mouwen te steken, onze locatie een stukje mooier te maken en natuurlijk gezellig bij te praten.\n\nDe datums zijn:\n7 november najaars klusdag\n20 maart NL Doet\n26 juni zomerklusdag\n\nWe starten om 10.00uur, rond het middaguur verzorgen we een lunch en we sluiten de dag af met een kleine borrel.\n\nJe hoeft niet de hele dag beschikbaar te zijn. We merken dat er ook ouders zijn die alleen ’s middags komen helpen terwijl hun kinderen deelnemen aan de klusdag. Hartsti"
   },
   {
    "id": "EKyZLdePDGS9pgMgDoa2|1794051000000",
@@ -236,6 +246,16 @@
    "info": "Zorg dat uw kind genoeg lunchpakket, iets te snacken, drinken en kleding mee heeft. Bij lekker weer wordt er vaak gezwommen dus een handdoek is dan geen overbodige luxe. Ook bij kouder of nat weer gaan wij het water op dus zorg dan voor voldoende kleren en een zeil/regenpak. Laarzen zijn ivm de veiligheid op het water niet toegestaan."
   },
   {
+   "id": "npKpvv9BEnUXD4z2Rw6X|1805536800000",
+   "cat": "opkomst",
+   "titel": "Klusdag",
+   "start": "2027-03-20T10:00",
+   "eind": "2027-03-20T17:30",
+   "heleDag": false,
+   "plek": "",
+   "info": "Beste ouders en verzorgers,\n\nOok dit jaar organiseren we weer drie klusdagen op zaterdag! Een mooie gelegenheid om samen de handen uit de mouwen te steken, onze locatie een stukje mooier te maken en natuurlijk gezellig bij te praten.\n\nDe datums zijn:\n7 november najaars klusdag\n20 maart NL Doet\n26 juni zomerklusdag\n\nWe starten om 10.00uur, rond het middaguur verzorgen we een lunch en we sluiten de dag af met een kleine borrel.\n\nJe hoeft niet de hele dag beschikbaar te zijn. We merken dat er ook ouders zijn die alleen ’s middags komen helpen terwijl hun kinderen deelnemen aan de klusdag. Hartsti"
+  },
+  {
    "id": "rdglY7a3Zxu8YzDzLNq6|1805544000000",
    "cat": "opkomst",
    "titel": "Opkomst",
@@ -384,6 +404,16 @@
    "heleDag": false,
    "plek": "Boomgaardlaan 24 Leiderdorp",
    "info": "Zorg dat uw kind genoeg lunchpakket, iets te snacken, drinken en kleding mee heeft. Bij lekker weer wordt er vaak gezwommen dus een handdoek is dan geen overbodige luxe. Ook bij kouder of nat weer gaan wij het water op dus zorg dan voor voldoende kleren en een zeil/regenpak. Laarzen zijn ivm de veiligheid op het water niet toegestaan."
+  },
+  {
+   "id": "ZjGj99yYlKTgDO5RGey6|1814004000000",
+   "cat": "opkomst",
+   "titel": "Klusdag",
+   "start": "2027-06-26T10:00",
+   "eind": "2027-06-26T17:30",
+   "heleDag": false,
+   "plek": "",
+   "info": "Beste ouders en verzorgers,\n\nOok dit jaar organiseren we weer drie klusdagen op zaterdag! Een mooie gelegenheid om samen de handen uit de mouwen te steken, onze locatie een stukje mooier te maken en natuurlijk gezellig bij te praten.\n\nDe datums zijn:\n7 november najaars klusdag\n20 maart NL Doet\n26 juni zomerklusdag\n\nWe starten om 10.00uur, rond het middaguur verzorgen we een lunch en we sluiten de dag af met een kleine borrel.\n\nJe hoeft niet de hele dag beschikbaar te zijn. We merken dat er ook ouders zijn die alleen ’s middags komen helpen terwijl hun kinderen deelnemen aan de klusdag. Hartsti"
   },
   {
    "id": "DKanqorvPKsJnx76QEjK|1815822000000",
