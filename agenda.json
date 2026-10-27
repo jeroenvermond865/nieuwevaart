@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-10-26T19:54:15.680Z",
+ "bijgewerkt": "2026-10-27T15:02:53.465Z",
  "status": {
   "opkomst": {
    "ok": true,
@@ -11,20 +11,10 @@
   },
   "kamp": {
    "ok": true,
-   "aantal": 6
+   "aantal": 5
   }
  },
  "items": [
-  {
-   "id": "d5vV3M3bKDhG6p8ANwnE|1792234800000",
-   "cat": "kamp",
-   "titel": "Herfstkamp",
-   "start": "2026-10-17T11:00",
-   "eind": "2026-10-20T16:00",
-   "heleDag": false,
-   "plek": "Boterhuiseiland",
-   "info": ""
-  },
   {
    "id": "plPpD7O2xjTXY8Z8K2Rn|1792843200000",
    "cat": "opkomst",
