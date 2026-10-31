@@ -1,9 +1,9 @@
 {
- "bijgewerkt": "2026-10-27T15:02:53.465Z",
+ "bijgewerkt": "2026-10-31T15:49:16.379Z",
  "status": {
   "opkomst": {
    "ok": true,
-   "aantal": 28
+   "aantal": 27
   },
   "speciaal": {
    "ok": true,
@@ -15,16 +15,6 @@
   }
  },
  "items": [
-  {
-   "id": "plPpD7O2xjTXY8Z8K2Rn|1792843200000",
-   "cat": "opkomst",
-   "titel": "Opkomst",
-   "start": "2026-10-24T12:00",
-   "eind": "2026-10-24T16:30",
-   "heleDag": false,
-   "plek": "Boomgaardlaan 24 Leiderdorp",
-   "info": "Zorg dat uw kind genoeg lunchpakket, iets te snacken, drinken en kleding mee heeft. Bij lekker weer wordt er vaak gezwommen dus een handdoek is dan geen overbodige luxe. Ook bij kouder of nat weer gaan wij het water op dus zorg dan voor voldoende kleren en een zeil/regenpak. Laarzen zijn ivm de veiligheid op het water niet toegestaan."
-  },
   {
    "id": "vyqmv7jxNVcoQJBJXRbm|1793448000000",
    "cat": "opkomst",
